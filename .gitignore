@@ -43,3 +43,9 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Arduino-specific ignores
+arduino/*.hex  # Exclude compiled hex files
+arduino/*.elf  # Exclude ELF files
+arduino/*.bin  # Exclude binary files
+arduino/build/ # Exclude entire build directory (if any)
